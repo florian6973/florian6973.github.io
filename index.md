@@ -7,7 +7,7 @@ layout: default
 Veuillez sélectionner votre groupe.
 
 - <a class="button" href='Groupe01'>Groupe 1</a>
-- <a class="button href='Groupe02'>Groupe 2</a>
+- <a class="button" href='Groupe02'>Groupe 2</a>
 
 <style type="text/css">
   .button:hover {
