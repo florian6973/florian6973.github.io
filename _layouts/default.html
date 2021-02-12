@@ -16,9 +16,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 style="text-align:center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="text-align:center">{{ site.description | default: site.github.project_tagline }}</p>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" style=" display: block;    margin-left: auto;    margin-right: auto"/>
@@ -45,7 +45,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; 2021 florian6973</small></p>
+        <p><small>2021 Mines Paris</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
