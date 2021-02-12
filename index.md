@@ -5,4 +5,4 @@ layout: home
 
 # Site pour les Mines
 
-- Cliquez ici : ()[google.comm]
+- Cliquez ici : [](google.com)
