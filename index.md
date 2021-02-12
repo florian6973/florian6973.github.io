@@ -1,6 +1,5 @@
 ---
-title: J-O Mines Titre
-layout: home
+layout: default
 ---
 
 <link rel="shortcut icon" type="image/png" href="favicon.png">
