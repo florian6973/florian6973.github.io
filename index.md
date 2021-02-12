@@ -4,6 +4,15 @@ layout: default
 
 <link rel="shortcut icon" type="image/png" href="favicon.png">
 
-# Site pour les Mines
+# Journées portes ouvertes
 
-- Cliquez [ici](google.com)
+Veuillez sélectionner votre salle.
+
+- Cliquez <span style="background-color:blue">[ici](https://google.com)</span>
+- Cliquez <span style="background-color:red">[ou là](https://google.com)</span>
+- Cliquez <span style="background-color:yellow">[ou là bas](https://google.com)</span>
+
+Merci !
+
+
+
