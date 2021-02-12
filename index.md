@@ -14,21 +14,20 @@ Merci !
 <style type="text/css">
   .button:hover {
     font-size:120%;
+    color:white;
   }
   .button {
     border-radius: 5px;  
+    color:white;
   }
   .blue {      
     background-color:blue;
-    color:white;
   }
   .red {      
     background-color:red;
-    color:white;
   }
   .green {      
     background-color:green;
-    color:white;
   }
 </style>
 
