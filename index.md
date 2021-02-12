@@ -6,9 +6,9 @@ layout: default
 
 Veuillez sélectionner votre salle.
 
-- <a class="button green" href='https://google.com?search=green' target='_blank'>Cliquez ici</a>
-- <a class="button blue" href='https://google.com?search=blue' target='_blank'>Cliquez ici</a>
-- <a class="button red" href='https://google.com?search=red' target='_blank'>Cliquez ici</a>
+- <a class="button green" href='https://fr.lmgtfy.app/?q=green&iie=0' target='_blank'>Cliquez ici</a>
+- <a class="button blue" href='https://fr.lmgtfy.app/?q=blue&iie=0' target='_blank'>Cliquez ici</a>
+- <a class="button red" href='https://fr.lmgtfy.app/?q=red&iie=0' target='_blank'>Cliquez ici</a>
 
 Merci !
 <style type="text/css">
