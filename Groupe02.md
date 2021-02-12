@@ -10,7 +10,6 @@ Veuillez sélectionner votre salle.
 - <a class="button blue" href='https://fr.lmgtfy.app/?q=blue&iie=0' target='_blank'>Cliquez ici</a>
 - <a class="button red" href='https://fr.lmgtfy.app/?q=red&iie=0' target='_blank'>Cliquez ici</a>
 
-Merci !
 <style type="text/css">
   .button:hover {
     font-size:120%;

@@ -4,12 +4,11 @@ layout: default
 
 # Liens de connexion
 
-Veuillez sélectionner votre salle.
+Veuillez sélectionner votre groupe.
 
 - <a class="button" href='Groupe01'>Groupe 1</a>
 - <a class="button href='Groupe02'>Groupe 2</a>
 
-Merci !
 <style type="text/css">
   .button:hover {
     font-size:120%;
