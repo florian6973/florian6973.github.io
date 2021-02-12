@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Journées portes ouvertes
+# Liens de connexion
 
 Veuillez sélectionner votre salle.
 
