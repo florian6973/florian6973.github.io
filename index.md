@@ -7,17 +7,16 @@ layout: default
 Veuillez sélectionner votre salle.
 
 - <a class="button" href='Groupe01'>Groupe 1</a>
-- <a class="button" href='Groupe02'>Groupe 2</a>
+- <a class="button href='Groupe02'>Groupe 2</a>
 
 Merci !
 <style type="text/css">
   .button:hover {
     font-size:120%;
-    color:white;
   }
   .button {
     border-radius: 5px;  
-    color:white;
+    border-color: red;
   }
   .blue {      
     background-color:blue;
