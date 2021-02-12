@@ -1,1 +1,0 @@
-Site pour les Mines
