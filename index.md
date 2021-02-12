@@ -2,17 +2,34 @@
 layout: default
 ---
 
-<link rel="shortcut icon" type="image/png" href="favicon.png">
-
 # Journées portes ouvertes
 
 Veuillez sélectionner votre salle.
 
-- Cliquez <span style="background-color:blue">[ici](https://google.com)</span>
-- Cliquez <span style="background-color:red">[ou là](https://google.com)</span>
-- Cliquez <span style="background-color:yellow">[ou là bas](https://google.com)</span>
+- <a class="button green" href='https://google.com?search=green' target='_blank'>Cliquez ici</a>
+- <a class="button blue" href='https://google.com?search=blue' target='_blank'>Cliquez ici</a>
+- <a class="button red" href='https://google.com?search=red' target='_blank'>Cliquez ici</a>
 
 Merci !
-
+<style type="text/css">
+  .button:hover {
+    font-size:120%;
+  }
+  .button {
+    border-radius: 5px;  
+  }
+  .blue {      
+    background-color:blue;
+    color:white;
+  }
+  .red {      
+    background-color:red;
+    color:white;
+  }
+  .green {      
+    background-color:green;
+    color:white;
+  }
+</style>
 
 
