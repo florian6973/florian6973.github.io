@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 
 title:  J-O Mines
 description: Pour les portes ouvertes
+logo : favicon.png
+show_downloads: "false"
 
 lang: fr
 markdown: kramdown
