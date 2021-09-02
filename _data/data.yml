@@ -82,7 +82,7 @@ projects:
       Personal projects
     assignments:
       - title: GAO
-        link: "#"
+        link: "http://orbiter.dansteph.com/forum/index.php?topic=13130"
         tagline: "A tool to deal with Orbiter addons."
 
 publications:
