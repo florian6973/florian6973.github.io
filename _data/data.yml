@@ -78,8 +78,7 @@ experiences:
           - ASP .NET MVC
 projects:
     title: Projects
-    intro: >
-      Personal projects
+    intro: Professional, academic and personal projects
     assignments:      
       - title: Hackathon Rogue
         link: "https://github.com/florian6973/hackathon"
@@ -90,9 +89,15 @@ projects:
       - title: Mine-Morse
         link: "https://github.com/florian6973/mine-morse"
         tagline: "A school project, encoding and decoding text/morse sound."          
-      - title: Mine-Morse
-        link: ""
-        tagline: "A school project, encoding and decoding text/morse sound."  
+      - title: Data Science Project
+        link: "https://github.com/florian6973/sdd_projet"
+        tagline: "Project with friends to deepen the data science course."     
+      - title: French accountability
+        link: "https://github.com/florian6973/compta"
+        tagline: "A program to simplify calculations for French accountability."    
+      - title: Mathematical project
+        link: "https://github.com/florian6973/lotka-volterra"
+        tagline: "A school project to manipulate differential equations." 
       - title: JuMP Project
         link: ""
         tagline: "An internal website to improve processes."  
