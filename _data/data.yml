@@ -80,7 +80,25 @@ projects:
     title: Projects
     intro: >
       Personal projects
-    assignments:
+    assignments:      
+      - title: Hackathon Rogue
+        link: "https://github.com/florian6973/hackathon"
+        tagline: "A school project with Pygame to play Rogue."     
+      - title: Rogue online
+        link: "https://rogue-now.herokuapp.com/"
+        tagline: "A school project with WebSockets to play Rogue online."      
+      - title: Mine-Morse
+        link: "https://github.com/florian6973/mine-morse"
+        tagline: "A school project, encoding and decoding text/morse sound."          
+      - title: Mine-Morse
+        link: ""
+        tagline: "A school project, encoding and decoding text/morse sound."  
+      - title: JuMP Project
+        link: ""
+        tagline: "An internal website to improve processes."  
+      - title: Computer Science Project - OpenCostings
+        link: ""
+        tagline: "A tool to manage opencostings to optimize purchases."        
       - title: GAO
         link: "http://orbiter.dansteph.com/forum/index.php?topic=13130"
         tagline: "A tool to deal with Orbiter addons."
