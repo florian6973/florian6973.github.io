@@ -53,8 +53,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an graduate student fond of Computer Science. I like programming and solving problems, while being curious to discover other areas. I would like to work in a R&D departement in the future.
+      I am a graduate student fond of Computer Science and Artificial Intelligence, with a strong interest in biomedical applications. I like programming and solving problems, while being curious to discover new scientific fields.
 education:
+    - degree: MSc in Applied Mathematics
+      university: ENS Paris-Saclay
+      time: 2023-now
+      details: |
+        Mathematics, Vision, Learning
     - degree: MSc in Engineering
       university: Mines Paris - PSL University
       time: 2020-now
