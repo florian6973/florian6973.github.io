@@ -121,7 +121,7 @@ publications:
       Preprints and conference abstracts.
 
     papers:
-      - title: FoMoH: A clinically meaningful foundation model evaluation for structured electronic health records
+      - title: FoMoH, a clinically meaningful foundation model evaluation for structured electronic health records
         link: "https://arxiv.org/abs/2505.16941"
         authors: C. Pang, V. Jeanselme, Y. S. Choi, X. Jiang, Z. Jing, A. Kashyap, Y. Kobayashi, Florent Pollet, et al.
         conference: arXiv preprint (2025)
