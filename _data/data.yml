@@ -1,146 +1,156 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    about: False
+    education: False
 
-    # Profile information
     name: Florent Pollet
-    tagline: Graduate Student
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: PhD Student in Biomedical Informatics
+    avatar: profile.jpeg
 
-    # Sidebar links
-    email: 
-    phone: 
-    website: #do not add http://
+    email: ffp2106 AT columbia DOT edu
+    phone:
+    website:
     linkedin: florent-pollet
-    xing:
     github: florian6973
-    telegram: # add your nickname without '@' sign
-    gitlab:
     bitbucket: florian6973
-    twitter: 
-    stack-overflow: 4164837/jd6 # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    stack-overflow: 4164837/jd6
     pdf:
 
     languages:
+      - idiom: English
+        level: Fluent
       - idiom: French
         level: Native
-
-      - idiom: English
-        level: Professional
-
       - idiom: German
         level: Good
-        
       - idiom: Spanish
         level: Good
 
     interests:
-      - item: Programming
-        link:
-
-      - item: Reading
-        link:
-
-      - item: Piloting small planes
-        link:
+      - item: Health AI
+      - item: Large Language Models
+      - item: Privacy & Security
+      - item: Biomedical Informatics
+      - item: Machine Learning
+      - item: Neurotechnology
 
 career-profile:
     title: Career Profile
     summary: |
-      I am a graduate student fond of Computer Science and Artificial Intelligence, with a strong interest in biomedical applications. I like programming and solving problems, while being curious to discover new scientific fields.
+      PhD student in Biomedical Informatics (Clinical Informatics track) at Columbia University.
+      My research focuses on machine learning for healthcare, large language models,
+      privacy risks in medical data. I have strong experience in
+      applied mathematics, optimization, and scientific software development.
+
 education:
-    - degree: MSc in Applied Mathematics
+    - degree: PhD in Biomedical Informatics (Clinical Informatics Track)
+      university: Columbia University
+      time: 2024 – 2029
+      details: |
+        Expected graduation: May 2029.
+        Main courses and seminars: Symbolic Methods, Machine Learning for Healthcare, Introduction to Computational Biology, LLM Reading Group.
+        Main project: Evaluation of private medical information leakage in LLMs.
+
+    - degree: MSc in Mathematics, Vision and Learning (MVA)
       university: ENS Paris-Saclay
-      time: 2023-now
+      time: 2023 – 2024
       details: |
-        Mathematics, Vision, Learning
-    - degree: MSc in Engineering
-      university: Mines Paris - PSL University
-      time: 2020-now
+        Joint degree with Mines Paris PSL.
+        Core topics: Convex optimization, time series ML, computational statistics,
+        numerical imaging, geometrical data analysis.
+
+    - degree: MSc in Science and Executive Engineering
+      university: Mines Paris - PSL
+      time: 2020 – 2024
       details: |
-        French scientific grande école
-          - Computer and Data Science
-          - Mathematics
-          - Physics
-    - degree: Classes Préparatoires
-      university: Lycée privé Sainte-Geneviève
-      time: 2018-2020
-      details: |
-        Intensive coursework to prepare for the most selective engineering schools
+        Major in Computer Science.
+        Bachelor’s degree obtained in 2021.
+
 experiences:
-    - role: IT Consultant (Junior-Entreprise)
-      time: 2021 - Present
-      company: Paris
+    - role: Software Engineer Intern
+      company: Axoft Inc., Cambridge, USA
+      time: 04/2023 – 08/2024
       details: |
-        Developing an internal website for a bank
-          - C#
-          - ASP .NET MVC
+        Built neural data acquisition pipelines (spikeinterface).
+        Analyzed neural signals using PCA, UMAP, clustering, and RNNs.
+
+    - role: Visiting Research Intern
+      company: Harvard University, Bertoldi Group
+      time: 03/2022 – 08/2022
+      details: |
+        Analyzed over 5 million experimental images using deep learning.
+        Implemented molecular dynamics simulations in C++.
+
+    - role: Energy Analyst Intern
+      company: Altanova LLC, New York, USA
+      time: 10/2022 – 03/2023
+      details: |
+        Developed microgrid optimization algorithms using MILP.
+        Forecasted electric load for energy arbitrage using ML and DL models.
+
+    - role: Lead Developer
+      company: CAOR, Mines Paris, France
+      time: 12/2021 – 02/2022
+      details: |
+        Led a 6-person team designing a gesture-controlled IoT glove.
+        Technologies: Arduino BLE, Raspberry Pi, Home Assistant.
+
+volunteering:
+    - role: University Life Ambassador
+      company: Columbia University
+      time: 2024 – 2025
+      details: |
+        Help organize university-wide events for 36,000+ students
+        to foster an inclusive and welcoming campus environment.
+
 projects:
-    title: Projects
-    intro: Professional, academic and personal projects
-    assignments:      
+    title: (School) Projects
+    assignments:
       - title: Hackathon Rogue
         link: "https://github.com/florian6973/hackathon"
-        tagline: "A school project with Pygame to play Rogue."     
-      - title: Rogue online
-        link: "https://rogue-now.herokuapp.com/"
-        tagline: "A school project with WebSockets to play Rogue online."      
+        tagline: Pygame-based Rogue implementation.
       - title: Mine-Morse
         link: "https://github.com/florian6973/mine-morse"
-        tagline: "A school project, encoding and decoding text/morse sound."          
-      - title: Data Science Project
-        link: "https://github.com/florian6973/sdd_projet"
-        tagline: "Project with friends to deepen the data science course."     
-      - title: French accountability
-        link: "https://github.com/florian6973/compta"
-        tagline: "A program to simplify calculations for French accountability."    
-      - title: Mathematical project
+        tagline: Text and Morse signal encoding/decoding.
+      - title: Lotka–Volterra Models
         link: "https://github.com/florian6973/lotka-volterra"
-        tagline: "A school project to manipulate differential equations." 
-      - title: JuMP Project
-        link: ""
-        tagline: "An internal website to improve processes."  
-      - title: Computer Science Project - OpenCostings
-        link: ""
-        tagline: "A tool to manage opencostings to optimize purchases."        
-      - title: GAO
-        link: "http://orbiter.dansteph.com/forum/index.php?topic=13130"
-        tagline: "A tool to deal with Orbiter addons."
+        tagline: Differential equation modeling project.
 
 publications:
     title: Publications
     intro: |
-      I hope soon.
-#    papers:
-#      - title: The Art of Computer Programming
-#        link: "#"
-#        authors: Donald E. Knuth
-#        conference: Addison-Wesley, 1968
+      Preprints and conference abstracts.
+
+    papers:
+      - title: FoMoH: A clinically meaningful foundation model evaluation for structured electronic health records
+        link: "https://arxiv.org/abs/2505.16941"
+        authors: C. Pang, V. Jeanselme, Y. S. Choi, X. Jiang, Z. Jing, A. Kashyap, Y. Kobayashi, Florent Pollet, et al.
+        conference: arXiv preprint (2025)
+
+      - title: Clinical translation of ultrasoft Fleuron probes for stable, high-density, and bidirectional brain interfaces
+        link: "https://www.medrxiv.org/content/10.1101/2025.04.24.25326126v1"
+        authors: J. Lee, H. Park, A. Spencer, X. Gong, M. DeNardo, F. Vashahi, Florent Pollet, et al.
+        conference: medRxiv preprint (2025)
+
+      - title: Avalanches in 2D granular media
+        link: "https://meetings.aps.org/Meeting/MAR23/Session/A16.2"
+        authors: Florent Pollet et al.
+        conference: APS March Meeting Abstract (2023)
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills & Proficiency
     toolset:
       - name: Python
-        level: 98%
-
-      - name: C#
-        level: 98%
-
-      - name: C++
-        level: 98%
-
-      - name: HTML5 & CSS
         level: 95%
-
-      - name: Javascript
+      - name: C++
+        level: 90%
+      - name: C#
+        level: 90%
+      - name: PyTorch
         level: 85%
+      - name: Optimization (MILP, PuLP)
+        level: 85%
+      - name: Docker & Virtualization
+        level: 80%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i>
+    Academic CV • Florent Pollet
