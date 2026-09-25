@@ -39,7 +39,13 @@
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.scholar %}
+    <li class="scholar"><i class="fas fa-graduation-cap"></i>
+      <a href="{{ sidebar.scholar }}">Google Scholar</a>
     </li>
     {% endif %}
 

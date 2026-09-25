@@ -1,4 +1,4 @@
-{% assign projects = site.data.data.projects %}
+{% assign projects = include.projects | default: site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
 
@@ -21,11 +21,15 @@
 
       <span class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <a href="{{ project.link }}">{{ project.title }}</a>
         {% else %}
         {{ project.title }}
         {% endif %}
       </span>
+
+      {% if project.time %}
+      <span class="project-date">({{ project.time }})</span>
+      {% endif %}
 
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>

@@ -1,156 +1,216 @@
 sidebar:
     about: False
     education: False
-
     name: Florent Pollet
-    tagline: PhD Student in Biomedical Informatics
+    tagline: PhD Student in Biomedical Informatics at Columbia University
     avatar: profile.jpeg
-
-    email: ffp2106 AT columbia DOT edu
+    email: ffp2106@cumc.columbia.edu
     phone:
     website:
     linkedin: florent-pollet
     github: florian6973
+    scholar: https://scholar.google.com/citations?user=-NcIrc0AAAAJ
     bitbucket: florian6973
     stack-overflow: 4164837/jd6
     pdf:
-
     languages:
       - idiom: English
         level: Fluent
       - idiom: French
         level: Native
       - idiom: German
-        level: Good
+        level: C1
       - idiom: Spanish
-        level: Good
-
+        level: Conversational
+      - idiom: Chinese
+        level: Beginner
     interests:
+      - item: Methodological Discovery in ML
+      - item: Automated AI R&D
       - item: Health AI
-      - item: Large Language Models
-      - item: Privacy & Security
-      - item: Biomedical Informatics
-      - item: Machine Learning
-      - item: Neurotechnology
+      - item: Event-Stream Data
+      - item: Foundation Model Evaluation
+      - item: Privacy & Federated Learning
 
 career-profile:
-    title: Career Profile
+    title: Research Focus
     summary: |
-      PhD student in Biomedical Informatics (Clinical Informatics track) at Columbia University.
-      My research focuses on machine learning for healthcare, large language models,
-      privacy risks in medical data. I have strong experience in
-      applied mathematics, optimization, and scientific software development.
+      I am a PhD student in Biomedical Informatics at Columbia University, advised by Professor Matthew B. A. McDermott. My research develops scalable methods for methodological discovery in machine learning: identifying which design choices produce real performance gains, where those gains generalize across tasks and datasets, and how efficiently that evidence can be established.
+
+      Motivated by increasingly automated AI R&D and, ultimately, self-improving AI, I study how experiments can produce reliable, reusable knowledge to guide what to build next. I work primarily in Health AI, using sparse, irregular longitudinal event-stream data, while developing methods intended to generalize to other temporal domains such as finance.
+
+      Trained as a software engineer and computer scientist, and working within a medical school, I combine statistical methodology, experimental design, and software infrastructure with an understanding of event-stream data.
 
 education:
-    - degree: PhD in Biomedical Informatics (Clinical Informatics Track)
-      university: Columbia University
-      time: 2024 – 2029
+    - degree: PhD in Biomedical Informatics
+      university: Columbia University, New York, USA
+      time: 2024 – 2029 (expected)
       details: |
-        Expected graduation: May 2029.
-        Main courses and seminars: Symbolic Methods, Machine Learning for Healthcare, Introduction to Computational Biology, LLM Reading Group.
-        Main project: Evaluation of private medical information leakage in LLMs.
+        Clinical Informatics Track. Primary advisor: Matthew B. A. McDermott.
 
-    - degree: MSc in Mathematics, Vision and Learning (MVA)
-      university: ENS Paris-Saclay
+        MA in Biomedical Informatics, graduated February 2026 (GPA 4.06).
+
+        Coursework and reading groups: Machine Learning for Healthcare; Advanced Machine Learning for Healthcare and Medicine; Symbolic Artificial Intelligence; Acculturation to Medicine & Clinical Informatics; LLM and Electronic Health Record Foundation Models Reading Groups.
+    - degree: MSc in Applied Mathematics (MVA)
+      university: ENS Paris-Saclay, Paris, France
       time: 2023 – 2024
       details: |
-        Joint degree with Mines Paris PSL.
-        Core topics: Convex optimization, time series ML, computational statistics,
-        numerical imaging, geometrical data analysis.
+        Mathematics, Vision and Learning; joint degree with Mines Paris PSL. Graduated with Highest Honors.
 
-    - degree: MSc in Science and Executive Engineering
-      university: Mines Paris - PSL
+        Coursework: Convex Optimization, Computational Statistics, Machine Learning for Time Series, Geometrical Data Analysis.
+    - degree: MSc + BSc in Science and Executive Engineering
+      university: Mines Paris PSL (École des Mines), Paris, France
       time: 2020 – 2024
       details: |
-        Major in Computer Science.
-        Bachelor’s degree obtained in 2021.
+        Major in Computer Science. Coursework: Machine Learning, Databases, Software Engineering.
+
+research-experience:
+    - role: Graduate Research Assistant
+      company: Columbia University, Department of Biomedical Informatics, New York, USA
+      time: 2024 – present
+      details: |
+        - **Efficient and scalable evaluation for automated AI R&D (McDermott Health AI Lab):** Studying how to make evaluation more efficient across large spaces of prediction tasks. Current work examines when relative algorithm comparisons from inexpensive generated tasks transfer to clinically meaningful tasks and new datasets.
+        - **EHR foundation model benchmarking (Joshi Lab):** Co-developed a multi-task evaluation of supervised baselines and EHR foundation models across clinical tasks and datasets, including settings with scarce labels.
+        - **Privacy of clinical LLMs (Gürsoy & Elhadad Labs):** Developed Verified Extraction, a privacy-auditing framework combining extraction attacks with membership verification to measure leakage of patient identifiers under realistic attacker constraints (MLHC 2026).
+        - **Personalized federated learning (Gürsoy Lab):** Co-developed and evaluated PLayer-FL, combining shared and institution-specific model layers across tabular, imaging, and clinical-text settings (MLSys 2026).
+    - role: Visiting Research Intern
+      company: Harvard University, Bertoldi Group (SEAS), Cambridge, USA
+      time: Mar 2022 – Aug 2022
+      details: |
+        - Analyzed 5 million experimental images using deep learning (PyTorch, Mask R-CNN).
+        - Implemented molecular dynamics simulations of phase transitions in C++.
+        - Presented results at the SES Annual Meeting (2022) and APS March Meeting (2023).
+        - Awarded an Erasmus+ Scholarship from the European Commission.
 
 experiences:
-    - role: Software Engineer Intern
+    - role: Software Engineer Intern, Preclinical Team
       company: Axoft Inc., Cambridge, USA
-      time: 04/2023 – 08/2024
+      time: Apr 2023 – Aug 2024
       details: |
-        Built neural data acquisition pipelines (spikeinterface).
-        Analyzed neural signals using PCA, UMAP, clustering, and RNNs.
-
-    - role: Visiting Research Intern
-      company: Harvard University, Bertoldi Group
-      time: 03/2022 – 08/2022
-      details: |
-        Analyzed over 5 million experimental images using deep learning.
-        Implemented molecular dynamics simulations in C++.
-
-    - role: Energy Analyst Intern
+        - Built data acquisition and analysis pipelines for high-density neural recordings using SpikeInterface.
+        - Used biophysical simulations to evaluate deep-clustering methods for spike sorting when experimental ground truth was unavailable.
+        - Applied these evaluations to characterize recording performance and inform neural-probe design.
+    - role: Energy Analyst Intern, Sustainable Infrastructure
       company: Altanova LLC, New York, USA
-      time: 10/2022 – 03/2023
+      time: Oct 2022 – Mar 2023
       details: |
-        Developed microgrid optimization algorithms using MILP.
-        Forecasted electric load for energy arbitrage using ML and DL models.
-
+        Developed microgrid optimization algorithms (PuLP/MILP) and electric load forecasting models.
     - role: Lead Developer
       company: CAOR, Mines Paris, France
-      time: 12/2021 – 02/2022
+      time: Dec 2021 – Feb 2022
       details: |
         Led a 6-person team designing a gesture-controlled IoT glove.
         Technologies: Arduino BLE, Raspberry Pi, Home Assistant.
 
-volunteering:
-    - role: University Life Ambassador
-      company: Columbia University
-      time: 2024 – 2025
+open-source:
+    title: Selected Open-Source Contributions
+    assignments:
+      - title: Hugging Face Transformers
+        link: https://github.com/huggingface/transformers/pull/45349
+        time: Apr 2026
+        tagline: 'PR #45349: Corrected Trainer/DeepSpeed gradient-accumulation scaling and added regression coverage.'
+      - title: MEDS Tabular AutoML
+        link: https://github.com/mmcdermott/MEDS_Tabular_AutoML/pull/142
+        time: May 2025
+        tagline: 'PR #142: Fixed task-specific EHR featurization and aggregation, including label-time handling and caching behavior.'
+      - title: SpikeInterface
+        link: https://github.com/SpikeInterface/spikeinterface/pull/3242
+        time: Sep 2024
+        tagline: 'PR #3242: Added configurable parameters to the UnitSummaryWidget following maintainer review.'
+      - title: Open Ephys Notch Filter
+        link: https://github.com/open-ephys-plugins/notch-filter
+        time: Jul 2024
+        tagline: Developed a signal-processing plugin available through the official Plugin Installer.
+      - title: Open Ephys LFPViewer
+        link: https://github.com/open-ephys/plugin-GUI/pull/616
+        time: Jul 2024
+        tagline: 'PR #616: Contributed a numerical fix.'
+
+teaching:
+    - role: Teaching Assistant & LLM Reading Group Lead
+      company: Columbia University, Department of Biomedical Informatics, New York, USA
+      time: 2024 – 2026
       details: |
-        Help organize university-wide events for 36,000+ students
-        to foster an inclusive and welcoming campus environment.
+        - TA for BINF G4002: Machine Learning for Healthcare; guest lecture on model evaluation (Spring 2026).
+        - TA for BINF G4001: Introduction to Computational Biomedicine and Health (Fall 2025).
+        - Led the 2024–2025 LLM Reading Group and developed hands-on materials on Transformers, BERT, Llama, fine-tuning, benchmarking, and evaluation.
+    - role: Git & GitHub Workshop Co-Instructor
+      company: Harvard Materials Research Science and Engineering Center (MRSEC), Cambridge, USA
+      time: Jul 2022
+      details: |
+        Co-led an introductory workshop on version control and collaborative Git/GitHub workflows.
+
+service:
+    title: Academic Service
+    items:
+      - title: Peer Reviewing
+        details: NeurIPS 2025 (Learning from Time Series for Health Workshop); RECOMB 2026; ISMB 2026; SD4H at ICML 2026 (Structured Data for Health); ML4H 2026.
+      - title: Conference Presentations
+        details: MLHC (Baltimore, 2026); MLSys (Bellevue, 2026); AI at VP&S Workshop (Columbia University, 2025); APS March Meeting (Las Vegas, 2023); SES Annual Meeting (Texas A&M, 2022).
+      - title: Conference Service
+        details: Volunteer at the OHDSI 2024 Global Symposium (New Brunswick, NJ).
+      - title: Community
+        details: 'Columbia University Life Ambassador: organizing events across all schools and campuses (36,000 students). Student Representative for the Columbia DBMI department.'
 
 projects:
-    title: (School) Projects
+    title: School Projects
     assignments:
       - title: Hackathon Rogue
-        link: "https://github.com/florian6973/hackathon"
+        link: https://github.com/florian6973/hackathon
         tagline: Pygame-based Rogue implementation.
       - title: Mine-Morse
-        link: "https://github.com/florian6973/mine-morse"
+        link: https://github.com/florian6973/mine-morse
         tagline: Text and Morse signal encoding/decoding.
       - title: Lotka–Volterra Models
-        link: "https://github.com/florian6973/lotka-volterra"
+        link: https://github.com/florian6973/lotka-volterra
         tagline: Differential equation modeling project.
 
 publications:
     title: Publications
-    intro: |
-      Preprints and conference abstracts.
-
-    papers:
-      - title: FoMoH, a clinically meaningful foundation model evaluation for structured electronic health records
-        link: "https://arxiv.org/abs/2505.16941"
-        authors: C. Pang, V. Jeanselme, Y. S. Choi, X. Jiang, Z. Jing, A. Kashyap, Y. Kobayashi, Florent Pollet, et al.
-        conference: arXiv preprint (2025)
-
-      - title: Clinical translation of ultrasoft Fleuron probes for stable, high-density, and bidirectional brain interfaces
-        link: "https://www.medrxiv.org/content/10.1101/2025.04.24.25326126v1"
-        authors: J. Lee, H. Park, A. Spencer, X. Gong, M. DeNardo, F. Vashahi, Florent Pollet, et al.
-        conference: medRxiv preprint (2025)
-
-      - title: Avalanches in 2D granular media
-        link: "https://meetings.aps.org/Meeting/MAR23/Session/A16.2"
-        authors: Florent Pollet et al.
-        conference: APS March Meeting Abstract (2023)
+    groups:
+      - title: Peer-Reviewed Publications
+        papers:
+          - title: Privacy Audits for Clinical Large Language Models
+            link: https://nikirill.com/files/clinical-llm-privacy.pdf
+            authors: F. Pollet, K. Nikitin, T. Wang, R. Gupta, N. Elhadad, G. Gürsoy.
+            conference: MLHC 2026
+          - title: 'PLayer-FL: A Principled Approach to Personalized Layer-wise Cross-Silo Federated Learning'
+            link: https://mlsys.org/virtual/2026/oral/3813
+            authors: A. Elhussein, F. Pollet, G. Gürsoy.
+            conference: MLSys 2026
+      - title: Preprints
+        papers:
+          - title: Rethinking How We Evaluate Methodological Progress in Health AI
+            link: https://arxiv.org/abs/2609.18134
+            authors: F. Pollet, M. McDermott.
+            conference: arXiv:2609.18134 (2026); under review at ML4H 2026
+          - title: A Clinically Meaningful Foundation Model Evaluation for Structured Electronic Health Records
+            link: https://arxiv.org/abs/2505.16941
+            authors: V. Jeanselme*, Z. Jing*, A. Kashyap*, C. Pang*, F. Pollet*, Y. S. Choi, X. Jiang, Y. Kobayashi, Y. Li, S. Matijevic, K. Natarajan, S. Joshi.
+            conference: arXiv:2505.16941 (2026); under review at Journal of Biomedical Informatics
+            note: '*Equal contribution.'
+          - title: Clinical Translation of Ultrasoft Fleuron™ Probes for Stable, High-Density, and Bidirectional Brain Interfaces
+            link: https://www.medrxiv.org/content/10.1101/2025.04.24.25326126v3
+            authors: J. Lee et al. (including F. Pollet).
+            conference: medRxiv 2025.04.24.25326126 (2025)
+      - title: Conference Abstracts
+        papers:
+          - title: Avalanches in 2D granular media
+            link: https://meetings.aps.org/Meeting/MAR23/Session/A16.2
+            authors: Florent Pollet et al.
+            conference: APS March Meeting Abstract (2023)
 
 skills:
-    title: Skills & Proficiency
-    toolset:
-      - name: Python
-        level: 95%
-      - name: C++
-        level: 90%
-      - name: C#
-        level: 90%
-      - name: PyTorch
-        level: 85%
-      - name: Optimization (MILP, PuLP)
-        level: 85%
-      - name: Docker & Virtualization
-        level: 80%
+    title: Technical Skills
+    categories:
+      - name: Programming
+        details: Python (advanced), C/C++ (advanced), R, SQL, OCaml, TypeScript
+      - name: AI Tools
+        details: Claude Code, OpenAI Codex
+      - name: ML/NLP
+        details: PyTorch, Hugging Face (Transformers, Accelerate, PEFT), scikit-learn, Weights & Biases
+      - name: Infrastructure
+        details: SLURM HPC, Docker, Git/GitHub Actions, LaTeX
 
 footer: >
     Academic CV • Florent Pollet
