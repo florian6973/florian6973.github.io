@@ -9,10 +9,18 @@ layout: default
   {% include education.html %}
 {% endunless %}
 
-{% include experiences.html %}
-
-{% include projects.html %}
-
 {% include publications.html %}
 
+{% include experiences.html entries=site.data.data.research-experience title="Research Experience" %}
+
+{% include experiences.html title="Industry & Engineering Experience" %}
+
+{% include projects.html projects=site.data.data.open-source %}
+
+{% include experiences.html entries=site.data.data.teaching title="Teaching & Mentoring" %}
+
+{% include service.html %}
+
 {% include skills.html %}
+
+{% include projects.html %}
