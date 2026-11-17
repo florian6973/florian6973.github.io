@@ -39,8 +39,8 @@ career-profile:
 
       This spans several stages of the ML lifecycle:
 
-      - **Evaluation methodology:** how to measure methodological progress efficiently as both models and benchmark data grow in scale, across many tasks and datasets.
-      - **Benchmarking & foundation models:** evaluating EHR foundation models against supervised baselines, and studying what makes foundation models capable of any-task inference.
+      - **Evaluation & benchmarking:** how to measure methodological progress efficiently as both models and benchmark data grow in scale, across many tasks and datasets, including benchmarking EHR foundation models against supervised baselines.
+      - **Foundation model development:** understanding and building foundation models capable of any-task inference, and identifying which design choices actually make them better.
       - **Trustworthy deployment:** auditing clinical LLMs for privacy leakage and developing personalized federated learning across institutions.
 
       I work primarily with longitudinal EHR event-stream data in the MEDS ecosystem, a demanding testbed whose lessons carry over to other temporal domains. Trained as both a software engineer and a computer scientist, and working within a medical school, I combine statistical methodology, experimental design, and research software built to be reused.
