@@ -39,7 +39,7 @@ career-profile:
 
       This spans several stages of the ML lifecycle:
 
-      - **Evaluation methodology:** rethinking how methodological progress is measured across large spaces of tasks and datasets.
+      - **Evaluation methodology:** how to measure methodological progress efficiently as both models and benchmark data grow in scale, across many tasks and datasets.
       - **Benchmarking & foundation models:** evaluating EHR foundation models against supervised baselines, and studying what makes foundation models capable of any-task inference.
       - **Trustworthy deployment:** auditing clinical LLMs for privacy leakage and developing personalized federated learning across institutions.
 
