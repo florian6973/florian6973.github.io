@@ -226,5 +226,5 @@ skills:
       - name: Infrastructure
         details: SLURM HPC, Docker, Git/GitHub Actions, LaTeX
 
-footer: >
-    Academic CV • Florent Pollet
+# Optional footer text shown at the bottom of the page (leave empty to hide)
+footer:
