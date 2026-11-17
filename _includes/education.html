@@ -19,13 +19,7 @@
   {% else %}
   <section class="section educations-section">
 
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-      </span>
-      Education
-    </h2>
+    <h2 class="section-title">Education</h2>
 
     {% for graduation in education %}
     <div class="item">
@@ -37,7 +31,9 @@
           <div class="time">{{ graduation.time }}</div>
         </div><!--//upper-row-->
 
-        <div class="university">{{ graduation.university }}</div>
+        <div class="university">
+          {% if graduation.link %}<a href="{{ graduation.link }}" target="_blank" rel="noopener">{{ graduation.university }}</a>{% else %}{{ graduation.university }}{% endif %}
+        </div>
       </div><!--//meta-->
 
       {% if graduation.details %}

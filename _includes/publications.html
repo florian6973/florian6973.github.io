@@ -1,14 +1,10 @@
 {% assign publications = site.data.data.publications %}
+{% assign me = site.data.data.publications.highlight_author | default: "F. Pollet" %}
+{% assign me_bold = "<strong>" | append: me | append: "</strong>" %}
 {% if publications %}
 <section class="section publications-section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ publications.title }}
-  </h2>
+  <h2 class="section-title">{{ publications.title }}</h2>
 
   {% if publications.intro %}
   <div class="intro">
@@ -28,7 +24,7 @@
       {{ publication.title }}
     {% endif %}
     </h4>
-    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-authors">{{ publication.authors | replace: me, me_bold }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
     {% if publication.note %}
     <div class="publication-note">{{ publication.note }}</div>

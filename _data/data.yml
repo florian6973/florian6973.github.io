@@ -10,8 +10,8 @@ sidebar:
     linkedin: florent-pollet
     github: florian6973
     scholar: https://scholar.google.com/citations?user=-NcIrc0AAAAJ
-    bitbucket: florian6973
-    stack-overflow: 4164837/jd6
+    bitbucket:
+    stack-overflow:
     pdf:
     languages:
       - idiom: English
@@ -44,6 +44,7 @@ career-profile:
 education:
     - degree: PhD in Biomedical Informatics
       university: Columbia University, New York, USA
+      link: 'https://www.dbmi.columbia.edu/'
       time: 2024 – 2029 (expected)
       details: |
         Clinical Informatics Track. Primary advisor: Matthew B. A. McDermott.
@@ -53,6 +54,7 @@ education:
         Coursework and reading groups: Machine Learning for Healthcare; Advanced Machine Learning for Healthcare and Medicine; Symbolic Artificial Intelligence; Acculturation to Medicine & Clinical Informatics; LLM and Electronic Health Record Foundation Models Reading Groups.
     - degree: MSc in Applied Mathematics (MVA)
       university: ENS Paris-Saclay, Paris, France
+      link: 'https://www-master--mva-com.translate.goog/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=en'
       time: 2023 – 2024
       details: |
         Mathematics, Vision and Learning; joint degree with Mines Paris PSL. Graduated with Highest Honors.
@@ -60,6 +62,7 @@ education:
         Coursework: Convex Optimization, Computational Statistics, Machine Learning for Time Series, Geometrical Data Analysis.
     - degree: MSc + BSc in Science and Executive Engineering
       university: Mines Paris PSL (École des Mines), Paris, France
+      link: 'https://www.minesparis.psl.eu/en/'
       time: 2020 – 2024
       details: |
         Major in Computer Science. Coursework: Machine Learning, Databases, Software Engineering.
@@ -67,14 +70,16 @@ education:
 research-experience:
     - role: Graduate Research Assistant
       company: Columbia University, Department of Biomedical Informatics, New York, USA
+      link: 'https://www.dbmi.columbia.edu/'
       time: 2024 – present
       details: |
-        - **Efficient and scalable evaluation for automated AI R&D (McDermott Health AI Lab):** Studying how to make evaluation more efficient across large spaces of prediction tasks. Current work examines when relative algorithm comparisons from inexpensive generated tasks transfer to clinically meaningful tasks and new datasets.
+        - **Reliable and efficient evaluation of health AI (McDermott Health AI Lab):** Studying how to make evaluation of health AI methods more reliable and efficient across large spaces of prediction tasks. In a study of 12 methods on 40 tasks across two datasets, pairwise method comparisons agreed for 76–92% of method pairs, including from inexpensive generated tasks to clinically meaningful ones. Current work examines when such comparisons transfer to new tasks and datasets, using the [MEDS-DEV](https://medical-event-data-standard.github.io/docs/MEDS-DEV/intro) infrastructure.
         - **EHR foundation model benchmarking (Joshi Lab):** Co-developed a multi-task evaluation of supervised baselines and EHR foundation models across clinical tasks and datasets, including settings with scarce labels.
         - **Privacy of clinical LLMs (Gürsoy & Elhadad Labs):** Developed Verified Extraction, a privacy-auditing framework combining extraction attacks with membership verification to measure leakage of patient identifiers under realistic attacker constraints (MLHC 2026).
         - **Personalized federated learning (Gürsoy Lab):** Co-developed and evaluated PLayer-FL, combining shared and institution-specific model layers across tabular, imaging, and clinical-text settings (MLSys 2026).
     - role: Visiting Research Intern
       company: Harvard University, Bertoldi Group (SEAS), Cambridge, USA
+      link: 'https://bertoldi.seas.harvard.edu/'
       time: Mar 2022 – Aug 2022
       details: |
         - Analyzed 5 million experimental images using deep learning (PyTorch, Mask R-CNN).
@@ -85,6 +90,7 @@ research-experience:
 experiences:
     - role: Software Engineer Intern, Preclinical Team
       company: Axoft Inc., Cambridge, USA
+      link: 'https://axoft.us/'
       time: Apr 2023 – Aug 2024
       details: |
         - Built data acquisition and analysis pipelines for high-density neural recordings using SpikeInterface.
@@ -92,11 +98,13 @@ experiences:
         - Applied these evaluations to characterize recording performance and inform neural-probe design.
     - role: Energy Analyst Intern, Sustainable Infrastructure
       company: Altanova LLC, New York, USA
+      link: 'https://www.altanova.io/'
       time: Oct 2022 – Mar 2023
       details: |
         Developed microgrid optimization algorithms (PuLP/MILP) and electric load forecasting models.
     - role: Lead Developer
       company: CAOR, Mines Paris, France
+      link: 'https://www.caor.minesparis.psl.eu/'
       time: Dec 2021 – Feb 2022
       details: |
         Led a 6-person team designing a gesture-controlled IoT glove.
@@ -105,14 +113,14 @@ experiences:
 open-source:
     title: Selected Open-Source Contributions
     assignments:
+      - title: MEDS-Tab v0.3.0 Release
+        link: https://github.com/mmcdermott/MEDS_Tabular_AutoML/releases/tag/0.3.0
+        time: Nov 2026
+        tagline: Contributed key bug fixes and improvements to EHR featurization, aggregation, and task-specific pipelines; prepared and triggered the v0.3.0 release.
       - title: Hugging Face Transformers
         link: https://github.com/huggingface/transformers/pull/45349
         time: Apr 2026
         tagline: 'PR #45349: Corrected Trainer/DeepSpeed gradient-accumulation scaling and added regression coverage.'
-      - title: MEDS Tabular AutoML
-        link: https://github.com/mmcdermott/MEDS_Tabular_AutoML/pull/142
-        time: May 2025
-        tagline: 'PR #142: Fixed task-specific EHR featurization and aggregation, including label-time handling and caching behavior.'
       - title: SpikeInterface
         link: https://github.com/SpikeInterface/spikeinterface/pull/3242
         time: Sep 2024
@@ -129,6 +137,7 @@ open-source:
 teaching:
     - role: Teaching Assistant & LLM Reading Group Lead
       company: Columbia University, Department of Biomedical Informatics, New York, USA
+      link: 'None'
       time: 2024 – 2026
       details: |
         - TA for BINF G4002: Machine Learning for Healthcare; guest lecture on model evaluation (Spring 2026).
@@ -136,9 +145,10 @@ teaching:
         - Led the 2024–2025 LLM Reading Group and developed hands-on materials on Transformers, BERT, Llama, fine-tuning, benchmarking, and evaluation.
     - role: Git & GitHub Workshop Co-Instructor
       company: Harvard Materials Research Science and Engineering Center (MRSEC), Cambridge, USA
+      link: 'https://www.mrsec.harvard.edu/'
       time: Jul 2022
       details: |
-        Co-led an introductory workshop on version control and collaborative Git/GitHub workflows.
+        Co-led an introductory workshop on version control and collaborative Git/GitHub workflows ([recording on YouTube](https://www.youtube.com/watch?v=n30naf83ja8)).
 
 service:
     title: Academic Service
@@ -151,19 +161,6 @@ service:
         details: Volunteer at the OHDSI 2024 Global Symposium (New Brunswick, NJ).
       - title: Community
         details: 'Columbia University Life Ambassador: organizing events across all schools and campuses (36,000 students). Student Representative for the Columbia DBMI department.'
-
-projects:
-    title: School Projects
-    assignments:
-      - title: Hackathon Rogue
-        link: https://github.com/florian6973/hackathon
-        tagline: Pygame-based Rogue implementation.
-      - title: Mine-Morse
-        link: https://github.com/florian6973/mine-morse
-        tagline: Text and Morse signal encoding/decoding.
-      - title: Lotka–Volterra Models
-        link: https://github.com/florian6973/lotka-volterra
-        tagline: Differential equation modeling project.
 
 publications:
     title: Publications
@@ -178,17 +175,28 @@ publications:
             link: https://mlsys.org/virtual/2026/oral/3813
             authors: A. Elhussein, F. Pollet, G. Gürsoy.
             conference: MLSys 2026
-      - title: Preprints
+      - title: Preprints and Manuscripts Under Review
         papers:
           - title: Rethinking How We Evaluate Methodological Progress in Health AI
             link: https://arxiv.org/abs/2609.18134
             authors: F. Pollet, M. McDermott.
-            conference: arXiv:2609.18134 (2026); under review at ML4H 2026
+            conference: arXiv:2609.18134 (2026)
           - title: A Clinically Meaningful Foundation Model Evaluation for Structured Electronic Health Records
             link: https://arxiv.org/abs/2505.16941
             authors: V. Jeanselme*, Z. Jing*, A. Kashyap*, C. Pang*, F. Pollet*, Y. S. Choi, X. Jiang, Y. Kobayashi, Y. Li, S. Matijevic, K. Natarajan, S. Joshi.
             conference: arXiv:2505.16941 (2026); under review at Journal of Biomedical Informatics
             note: '*Equal contribution.'
+          - title: A Theoretical Framework for Understanding and Building "Any-task inference" Capable Foundation Models
+            link: https://arxiv.org/abs/2610.40934
+            authors: M. McDermott, F. Pollet, P. Chandak, G. Kondas, L. Friedman Antwarg, N. Dagan, I. Kohane.
+            conference: arXiv:2610.40934 (2026)
+          - title: Normalizing ClinicalTrials.gov Outcome Measures for Analysis Across Diseases and Trial Phases
+            authors: J. B. Baker, F. Pollet, C. Weng.
+            conference: 2026; under review at Journal of the American Medical Informatics Association
+          - title: 'FaceKit: a Toolkit for Interpretable Facial Phenotyping, Synthetic Image Generation and Privacy Analysis in Rare Diseases'
+            link: https://arxiv.org/abs/2610.09288
+            authors: H. Chen, Z. Wang, F. Pollet, M. U. Ahsan, J. Bie, T.-C. Hsieh, P. Krawitz, C. Liu, W. K. Chung, C. Weng, G. Gürsoy, K. Wang.
+            conference: arXiv:2610.09288 (2026)
           - title: Clinical Translation of Ultrasoft Fleuron™ Probes for Stable, High-Density, and Bidirectional Brain Interfaces
             link: https://www.medrxiv.org/content/10.1101/2025.04.24.25326126v3
             authors: J. Lee et al. (including F. Pollet).
@@ -205,10 +213,12 @@ skills:
     categories:
       - name: Programming
         details: Python (advanced), C/C++ (advanced), R, SQL, OCaml, TypeScript
-      - name: AI Tools
-        details: Claude Code, OpenAI Codex
       - name: ML/NLP
         details: PyTorch, Hugging Face (Transformers, Accelerate, PEFT), scikit-learn, Weights & Biases
+      - name: Health Data
+        details: EHR event-stream data, MEDS ecosystem (MEDS-DEV, MEDS-Tab)
+      - name: Agentic Coding Tools
+        details: Claude Code, OpenAI Codex
       - name: Infrastructure
         details: SLURM HPC, Docker, Git/GitHub Actions, LaTeX
 

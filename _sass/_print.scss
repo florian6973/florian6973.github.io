@@ -1,39 +1,33 @@
-@media print
-   {
+@media print {
     @page {
         size: A4;
+        margin: 12mm;
     }
     body {
-       font-size: 12pt;
+        font-size: 10.5pt;
+        background: #fff;
+        padding: 0;
     }
-
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+    .wrapper {
+        box-shadow: none;
+        border-radius: 0;
     }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
     .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
+        flex-basis: 30%;
+        width: 30%;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
-
-    .remove-container.container-block {
-       display: none;
+    .main-wrapper {
+        padding: 0 0 0 24px;
     }
-
+    .main-wrapper .section {
+        margin-bottom: 24px;
+    }
+    .main-wrapper .item {
+        break-inside: avoid;
+    }
     footer {
-       display: none;
+        display: none;
     }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
-
 }
