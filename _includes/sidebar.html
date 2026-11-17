@@ -24,8 +24,15 @@
     {% include education.html %}
   {% endif %}
 
-  {% include interests.html %}
-  {% include language.html %}
+  <button type="button" class="sidebar-more-toggle" aria-expanded="false" aria-controls="sidebar-extra">
+    <span class="label-more">More about me</span><span class="label-less">Show less</span>
+    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+  </button>
+
+  <div class="sidebar-extra" id="sidebar-extra">
+    {% include interests.html %}
+    {% include language.html %}
+  </div><!--//sidebar-extra-->
 
   {% if sidebar.about %}
     {% include about.html %}
