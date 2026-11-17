@@ -35,13 +35,13 @@ sidebar:
 career-profile:
     title: Research Focus
     summary: |
-      I am a PhD student in Biomedical Informatics at Columbia University, advised by Professor Matthew B. A. McDermott. My research asks how we know which machine learning models and methods actually work: I build the benchmarks, evaluation methodology, and data infrastructure needed to measure real progress, understand where gains generalize across tasks and datasets, and establish that evidence efficiently. This question matters more and more as AI research becomes increasingly automated.
+      I am a PhD student in Biomedical Informatics at Columbia University, advised by [Professor Matthew B. A. McDermott](https://www.dbmi.columbia.edu/profile/matthew-mcdermott/). My research asks how we know which machine learning models and methods actually work: I build the [benchmarks](https://medical-event-data-standard.github.io/docs/MEDS-DEV/intro/), [evaluation methodology](https://arxiv.org/abs/2609.18134), and [data infrastructure](https://medical-event-data-standard.github.io/) needed to measure real progress, [understand where gains generalize across tasks and datasets](https://arxiv.org/abs/2610.40934), and establish that evidence efficiently. This question matters more and more as AI research becomes increasingly automated.
 
       This spans several stages of the ML lifecycle:
 
       - **Evaluation & benchmarking:** how to measure methodological progress efficiently as both models and benchmark data grow in scale, across many tasks and datasets, including benchmarking EHR foundation models against supervised baselines.
       - **Foundation model development:** understanding and building foundation models capable of any-task inference, and identifying which design choices actually make them better.
-      - **Trustworthy deployment:** auditing clinical LLMs for privacy leakage and developing personalized federated learning across institutions.
+      - **Trustworthy deployment:** auditing clinical LLMs for [privacy leakage](https://nikirill.com/files/clinical-llm-privacy.pdf) and developing [personalized federated learning](https://mlsys.org/virtual/2026/oral/3813) across institutions.
 
       I work primarily with longitudinal EHR event-stream data in the MEDS ecosystem, a demanding testbed whose lessons carry over to other temporal domains. Trained as both a software engineer and a computer scientist, and working within a medical school, I combine statistical methodology, experimental design, and research software built to be reused.
 
