@@ -25,21 +25,25 @@ sidebar:
       - idiom: Chinese
         level: Beginner
     interests:
-      - item: Methodological Discovery in ML
-      - item: Automated AI R&D
+      - item: ML Evaluation & Benchmarking
+      - item: Foundation Models
       - item: Health AI
-      - item: Event-Stream Data
-      - item: Foundation Model Evaluation
+      - item: EHR & Event-Stream Data
+      - item: Trustworthy Deployment
       - item: Privacy & Federated Learning
 
 career-profile:
     title: Research Focus
     summary: |
-      I am a PhD student in Biomedical Informatics at Columbia University, advised by Professor Matthew B. A. McDermott. My research develops scalable methods for methodological discovery in machine learning: identifying which design choices produce real performance gains, where those gains generalize across tasks and datasets, and how efficiently that evidence can be established.
+      I am a PhD student in Biomedical Informatics at Columbia University, advised by Professor Matthew B. A. McDermott. My research asks how we know which machine learning models and methods actually work: I build the benchmarks, evaluation methodology, and data infrastructure needed to measure real progress, understand where gains generalize across tasks and datasets, and establish that evidence efficiently — a question that only grows more pressing as AI research becomes increasingly automated.
 
-      Motivated by increasingly automated AI R&D and, ultimately, self-improving AI, I study how experiments can produce reliable, reusable knowledge to guide what to build next. I work primarily in Health AI, using sparse, irregular longitudinal event-stream data, while developing methods intended to generalize to other temporal domains such as finance.
+      This spans several stages of the ML lifecycle:
 
-      Trained as a software engineer and computer scientist, and working within a medical school, I combine statistical methodology, experimental design, and software infrastructure with an understanding of event-stream data.
+      - **Evaluation methodology:** rethinking how methodological progress is measured across large spaces of tasks and datasets.
+      - **Benchmarking & foundation models:** evaluating EHR foundation models against supervised baselines, and studying what makes foundation models capable of any-task inference.
+      - **Trustworthy deployment:** auditing clinical LLMs for privacy leakage and developing personalized federated learning across institutions.
+
+      I work primarily with longitudinal EHR event-stream data in the MEDS ecosystem, a demanding testbed whose lessons carry over to other temporal domains. Trained as both a software engineer and a computer scientist, and working within a medical school, I combine statistical methodology, experimental design, and research software built to be reused.
 
 education:
     - degree: PhD in Biomedical Informatics

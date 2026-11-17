@@ -218,8 +218,23 @@ p {
         }
     }
 
-    .summary p {
+    .summary {
         font-size: 15.5px;
+        ul {
+            padding-left: 18px;
+            margin: 0 0 14px;
+        }
+        li {
+            margin-bottom: 6px;
+            line-height: 1.6;
+            &::marker {
+                color: $accent;
+            }
+        }
+        strong {
+            color: $text-color;
+            font-weight: 600;
+        }
     }
 
     /* Experience / education entries */
