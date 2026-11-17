@@ -35,7 +35,7 @@ sidebar:
 career-profile:
     title: Research Focus
     summary: |
-      I am a PhD student in Biomedical Informatics at Columbia University, advised by Professor Matthew B. A. McDermott. My research asks how we know which machine learning models and methods actually work: I build the benchmarks, evaluation methodology, and data infrastructure needed to measure real progress, understand where gains generalize across tasks and datasets, and establish that evidence efficiently — a question that only grows more pressing as AI research becomes increasingly automated.
+      I am a PhD student in Biomedical Informatics at Columbia University, advised by Professor Matthew B. A. McDermott. My research asks how we know which machine learning models and methods actually work: I build the benchmarks, evaluation methodology, and data infrastructure needed to measure real progress, understand where gains generalize across tasks and datasets, and establish that evidence efficiently. This question matters more and more as AI research becomes increasingly automated.
 
       This spans several stages of the ML lifecycle:
 
