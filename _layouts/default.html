@@ -11,12 +11,13 @@
   <div class="wrapper">
     {% include sidebar.html %}
 
-    <div class="main-wrapper">
+    <main class="main-wrapper">
+      <div class="main-inner">
         {{ content }}
-    </div>
+        {% include footer.html %}
+      </div>
+    </main>
   </div>
-
-  {% include footer.html %}
 
 {% include scripts.html %}
 </body>

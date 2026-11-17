@@ -1,3 +1,11 @@
+/* Large screens: slightly wider sidebar */
+@media (min-width: 1400px) {
+    .sidebar-wrapper {
+        flex-basis: 340px;
+        width: 340px;
+    }
+}
+
 /* Tablets and small laptops */
 @media (max-width: 991px) {
     .main-wrapper {

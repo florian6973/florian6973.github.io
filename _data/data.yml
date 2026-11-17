@@ -152,19 +152,6 @@ service:
       - title: Community
         details: 'Columbia University Life Ambassador: organizing events across all schools and campuses (36,000 students). Student Representative for the Columbia DBMI department.'
 
-projects:
-    title: School Projects
-    assignments:
-      - title: Hackathon Rogue
-        link: https://github.com/florian6973/hackathon
-        tagline: Pygame-based Rogue implementation.
-      - title: Mine-Morse
-        link: https://github.com/florian6973/mine-morse
-        tagline: Text and Morse signal encoding/decoding.
-      - title: Lotka–Volterra Models
-        link: https://github.com/florian6973/lotka-volterra
-        tagline: Differential equation modeling project.
-
 publications:
     title: Publications
     groups:
