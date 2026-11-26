@@ -179,6 +179,11 @@ publications:
             link: https://mlsys.org/virtual/2026/oral/3813
             authors: A. Elhussein, F. Pollet, G. Gürsoy.
             conference: MLSys 2026
+          - title: MEDS — An Emerging Data Standard and Ecosystem for Health AI Research
+            link: https://doi.org/10.1056/AIra2501253
+            authors: M. B. A. McDermott, E. Steinberg, J. A. Fries, et al., N. H. Shah, and the MEDS Working Group (including F. Pollet).
+            conference: NEJM AI 3(6), 2026
+            note: Credited in the MEDS Working Group for pipeline implementation in the initial dataset and model integrations.
       - title: Preprints and Manuscripts Under Review
         papers:
           - title: Rethinking How We Evaluate Methodological Progress in Health AI
